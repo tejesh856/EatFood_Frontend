@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" style="display:block;margin:auto;">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="95" fill="#ffd700" />
+
+    <!-- Fork Icon -->
+    <rect x="40" y="60" width="120" height="20" fill="#333" />
+    <rect x="80" y="40" width="40" height="80" fill="#333" />
+
+    <!-- Knife Icon -->
+    <rect x="30" y="90" width="140" height="20" fill="#333" />
+    <rect x="80" y="70" width="40" height="60" fill="#333" />
+
+    <!-- Plate Icon -->
+    <circle cx="100" cy="150" r="30" fill="#fff" stroke="#333" stroke-width="2" />
+
+    <!-- Text -->
+    <text x="50%" y="50%" font-size="24" font-family="Arial" fill="#333" text-anchor="middle" dominant-baseline="middle">EatFoods</text>
+  </svg>
