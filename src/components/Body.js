@@ -10,6 +10,9 @@ export default function Body(props) {
     const [qty, setqty] = useState(1);
     const [size, setsize] = useState('');
     const handleaddtocart = async () => {
+        if (!localStorage.getItem('authtoken')) {
+            navigate('/login');
+        }
         let food = []
         for (const item of data) {
             if (item.id === fooditem._id) {
