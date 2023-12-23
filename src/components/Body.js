@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useDispatchCart, useCart } from "../components/Contextreducer";
+import { useNavigate } from 'react-router-dom';
 export default function Body(props) {
+    let navigate=useNavigate();
     let dispatch = useDispatchCart();
     let data = useCart();
     const priceref = useRef();
