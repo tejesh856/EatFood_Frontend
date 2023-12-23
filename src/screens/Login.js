@@ -5,7 +5,7 @@ export default function Login() {
   let navigate = useNavigate();
   const handlesubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('https://eatfood-api.onrender.com/api/loginuser',
+    const response = await fetch('https://orchid-woodpecker-vest.cyclic.app/api/loginuser',
       {
         method: 'POST',
         headers: {
