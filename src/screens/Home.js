@@ -7,7 +7,7 @@ export default function Home() {
     const [foodcat, setfoodcat] = useState([]);
     const [fooditems, setfooditems] = useState([])
     const loaddata = async () => {
-        const response = await fetch('https://orchid-woodpecker-vest.cyclic.app/api/fooddata', {
+        const response = await fetch('https://eat-food-backend.vercel.app/api/fooddata', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
