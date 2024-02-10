@@ -5,7 +5,7 @@ export default function Signup() {
     const navigate = useNavigate();
     const handlesubmit = async (e) => {
         e.preventDefault();
-        const response = await fetch('https://orchid-woodpecker-vest.cyclic.app/api/createuser',
+        const response = await fetch('https://eat-food-backend.vercel.app/api/createuser',
             {
                 method: 'POST',
                 headers: {
