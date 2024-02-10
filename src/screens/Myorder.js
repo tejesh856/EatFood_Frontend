@@ -6,7 +6,7 @@ export default function Myorder() {
     //console.log(orderData);
     const fetchMyOrder = async () => {
         //console.log(localStorage.getItem('useremail'))
-        await fetch("https://orchid-woodpecker-vest.cyclic.app/api/myorderdata", {
+        await fetch("https://eat-food-backend.vercel.app/api/myorderdata", {
             // credentials: 'include',
             // Origin:"http://localhost:3000/login",
             method: 'POST',
