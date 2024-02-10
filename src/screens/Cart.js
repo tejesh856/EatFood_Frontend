@@ -14,7 +14,7 @@ export default function Cart() {
     const handleCheckOut = async () => {
         let userEmail = localStorage.getItem("useremail");
         // console.log(data,localStorage.getItem("userEmail"),new Date())
-        let response = await fetch("https://orchid-woodpecker-vest.cyclic.app/api/orderdata", {
+        let response = await fetch("https://eat-food-backend.vercel.app/api/orderdata", {
             // credentials: 'include',
             // Origin:"http://localhost:3000/login",
             method: 'POST',
